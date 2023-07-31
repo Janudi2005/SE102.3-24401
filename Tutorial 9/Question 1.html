@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+</head>
+<body>
+  <button onclick="getDayOfWeek()">Days of the Week</button>
+
+  <script>
+  function getDayOfWeek() {
+    var userInput = parseInt(prompt("Enter a number between 1 and 7:"));
+  
+    if (userInput >= 1 && userInput <= 7) {
+      var dayOfWeek;
+      switch (userInput) {
+        case 1:
+          dayOfWeek = "Monday";
+          break;
+        case 2:
+          dayOfWeek = "Tuesday";
+          break;
+        case 3:
+          dayOfWeek = "Wednesday";
+          break;
+        case 4:
+          dayOfWeek = "Thursday";
+          break;
+        case 5:
+          dayOfWeek = "Friday";
+          break;
+        case 6:
+          dayOfWeek = "Saturday";
+          break;
+        case 7:
+          dayOfWeek = "Sunday";
+          break;
+        default:
+          break;
+      }
+      alert("The day " + userInput + " is a ,  " + dayOfWeek);
+    } else {
+      alert("Invalid input!");
+    }
+  }
+  </script>
+</body>
+</html>

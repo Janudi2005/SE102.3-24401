@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+</head>
+<body>
+  <button id="googleButton" onclick="redirectToGoogle()">Google</button>
+
+  <script>
+  function redirectToGoogle() {
+    if (confirm("Do you want to visit Google?")) {
+      window.location.href = "https://www.google.com";
+    } else {
+      alert("You decided to stay.");
+    }
+  }
+  </script>
+  
+  </body>
+  </html>
+ 
