@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <button onclick="calculateArea()">Calculate Area</button>
+
+    <script>
+      function calculateArea() {
+        var radius = parseFloat(prompt("Enter the radius of a circle:"));
+        if (!isNaN(radius)) {
+          const area = 22 / 7 * radius * radius;
+          alert("The area of the circle is: " + area.toFixed(2));
+        } else {
+          alert("Invalid input!");
+        }
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+</head>
+<body>
+  <button id="redButton" onmouseover="changeColor('red')" onmouseout="resetColor()">Red</button>
+  <button id="greenButton" onmouseover="changeColor('green')" onmouseout="resetColor()">Green</button>
+  <button id="blueButton" onmouseover="changeColor('blue')" onmouseout="resetColor()">Blue</button>
+
+  <script>
+    function changeColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+
+    function resetColor() {
+      document.body.style.backgroundColor = 'white';
+    }
+  </script>
+</body>
+</html>
