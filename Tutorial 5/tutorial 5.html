@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style> 
+    body{
+      margin: 0;
+    }
+    .container {
+       
+        text-align: center;
+        color: white;
+    }
+    
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+     
+    .quote1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 64px;
+        background-color: red; /* Transparent background */
+        opacity: .8;
+    }
+    
+    .quote2 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: rgb(255, 0, 60);
+    }
+    
+    .quote3 {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(127, 214, 255, 0); /* Transparent background */
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="image" class="image">
+        <div class="quote2">
+            <h1>Quotes for life</h1>
+        </div>
+        <div class="quote1">
+            <p>"Failure is success in progress!"</p>
+            <div class="quote3">
+                <p>- Albert Einstein</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
